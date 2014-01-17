@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[My Octopress Blog]]></title>
+  <link href="http://yoursite.com/atom.xml" rel="self"/>
+  <link href="http://yoursite.com/"/>
+  <updated>2014-01-17T13:17:21+08:00</updated>
+  <id>http://yoursite.com/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Test]]></title>
+    <link href="http://yoursite.com/blog/2014/01/17/title/"/>
+    <updated>2014-01-17T13:09:41+08:00</updated>
+    <id>http://yoursite.com/blog/2014/01/17/title</id>
+    <content type="html"><![CDATA[<p>hi world!
+无一路</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Test]]></title>
+    <link href="http://yoursite.com/blog/2014/01/17/516/"/>
+    <updated>2014-01-17T13:09:41+08:00</updated>
+    <id>http://yoursite.com/blog/2014/01/17/516</id>
+    <content type="html"><![CDATA[<p>ej 
+阿的打开阿哦地
+阿紧迫三</p>
+
+<p>阿</p>
+
+]]></content>
+  </entry>
+  
+</feed>
