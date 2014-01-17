@@ -1,34 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://yoursite.com/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
-  <updated>2014-01-17T13:17:21+08:00</updated>
-  <id>http://yoursite.com/</id>
+  <title><![CDATA[FosWu Octopress Blog]]></title>
+  <link href="http://FosWu.github.io/atom.xml" rel="self"/>
+  <link href="http://FosWu.github.io/"/>
+  <updated>2014-01-17T16:03:57+08:00</updated>
+  <id>http://FosWu.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[FosWu]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
   
   <entry>
-    <title type="html"><![CDATA[Test]]></title>
-    <link href="http://yoursite.com/blog/2014/01/17/title/"/>
+    <title type="html"><![CDATA[Sec]]></title>
+    <link href="http://FosWu.github.io/blog/2014/01/17/title/"/>
     <updated>2014-01-17T13:09:41+08:00</updated>
-    <id>http://yoursite.com/blog/2014/01/17/title</id>
+    <id>http://FosWu.github.io/blog/2014/01/17/title</id>
     <content type="html"><![CDATA[<p>hi world!
-无一路</p>
+无一路
+# Kramdown tex示例</p>
 
+<p>这里有一个式子$a^2+b^2=\frac{1}{2}$来展示行内公式的使用。</p>
+
+<p>非行内的公式用法：</p>
+
+<script type="math/tex; mode=display">
+    a^2+b^2=\frac{1}{2}
+</script>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Test]]></title>
-    <link href="http://yoursite.com/blog/2014/01/17/516/"/>
+    <link href="http://FosWu.github.io/blog/2014/01/17/516/"/>
     <updated>2014-01-17T13:09:41+08:00</updated>
-    <id>http://yoursite.com/blog/2014/01/17/516</id>
+    <id>http://FosWu.github.io/blog/2014/01/17/516</id>
     <content type="html"><![CDATA[<p>ej 
 阿的打开阿哦地
 阿紧迫三</p>
