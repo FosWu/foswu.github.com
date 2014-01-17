@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[FosWu Octopress Blog]]></title>
+  <title><![CDATA[FosWu 516Octopress Blog]]></title>
   <link href="http://FosWu.github.io/atom.xml" rel="self"/>
   <link href="http://FosWu.github.io/"/>
-  <updated>2014-01-17T16:03:57+08:00</updated>
+  <updated>2014-01-17T23:41:10+08:00</updated>
   <id>http://FosWu.github.io/</id>
   <author>
     <name><![CDATA[FosWu]]></name>
@@ -33,7 +33,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Test]]></title>
+    <title type="html"><![CDATA[1st]]></title>
     <link href="http://FosWu.github.io/blog/2014/01/17/516/"/>
     <updated>2014-01-17T13:09:41+08:00</updated>
     <id>http://FosWu.github.io/blog/2014/01/17/516</id>
@@ -42,6 +42,24 @@
 阿紧迫三</p>
 
 <p>阿</p>
+
+<script type="math/tex; mode=display">% &lt;![CDATA[
+
+\begin{align*}
+  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
+  & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
+      \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\
+      \vdots & \ddots & \vdots \\
+      \phi(e_n, e_1) & \cdots & \phi(e_n, e_n)
+    \end{array} \right)
+  \left( \begin{array}{c}
+      y_1 \\
+      \vdots \\
+      y_n
+    \end{array} \right)
+\end{align*}
+ %]]&gt;</script>
 
 ]]></content>
   </entry>
