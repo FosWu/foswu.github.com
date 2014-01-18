@@ -4,7 +4,7 @@
   <title><![CDATA[FosWu 516Octopress Blog]]></title>
   <link href="http://FosWu.github.io/atom.xml" rel="self"/>
   <link href="http://FosWu.github.io/"/>
-  <updated>2014-01-18T21:52:46+08:00</updated>
+  <updated>2014-01-19T00:25:52+08:00</updated>
   <id>http://FosWu.github.io/</id>
   <author>
     <name><![CDATA[FosWu]]></name>
@@ -15,12 +15,234 @@
   
   <entry>
     <title type="html"><![CDATA[Sec]]></title>
+    <link href="http://FosWu.github.io/blog/2014/01/18/ex/"/>
+    <updated>2014-01-18T13:09:41+08:00</updated>
+    <id>http://FosWu.github.io/blog/2014/01/18/ex</id>
+    <content type="html"><![CDATA[<h1 id="h1">标题 h1</h1>
+
+<h2 id="h2">标题 h2</h2>
+
+<h3 id="h3">标题 h3</h3>
+
+<h4 id="h4">标题 h4</h4>
+
+<h5 id="h5">标题 h5</h5>
+
+<h6 id="h6">标题 h6</h6>
+
+<p>另外, 还有 H1 和 H2 的下划线样式:</p>
+
+<h1 id="alt-h1">Alt-H1</h1>
+
+<h2 id="alt-h2">Alt-H2</h2>
+
+<p>斜体 <em>asterisks</em> 或者 <em>underscores</em></p>
+
+<p>粗体 <strong>asterisks</strong> 或者 <strong>underscores</strong></p>
+
+<p>粗体斜体结合 <strong>asterisks 和 <em>underscores</em></strong></p>
+
+<p>删除线 ~~Scratch this.~~</p>
+
+<h4 id="section">有序列表</h4>
+
+<ol>
+  <li>有序列表是 强调 顺序的一组元素的集合
+    <ol>
+      <li>次级有序列表</li>
+      <li>次级有序列表
+        <ol>
+          <li>三级有序列表   </li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+  <li>有序的列表前必须有数字,数字的值不重要</li>
+</ol>
+
+<h4 id="section-1">无序列表</h4>
+
+<ul>
+  <li>无序列表使用星号
+    <ul>
+      <li>无序列表次级列表
+        <ul>
+          <li>无序列表三级列表</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="section-2">混合列表</h4>
+
+<ol>
+  <li>有序列表是 强调 顺序的一组元素的集合
+    <ul>
+      <li>
+        <p>无序列表使用星号</p>
+
+        <ol>
+          <li>
+            <p>次级有序列表</p>
+
+            <p>文字说明</p>
+          </li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<p><a href="https://www.google.com">I’m an inline-style link</a></p>
+
+<p><a href="https://www.mozilla.org">I’m a reference-style link</a></p>
+
+<p><a href="http://blog.squidv.com">You can use numbers for reference-style link definitions</a></p>
+
+<p>Or leave it empty and use the <a href="http://www.github.com">link text itself</a></p>
+
+<p>Some text to show that the reference links can follow later.</p>
+
+<p>Inline-style: </p>
+
+<p><img src="https://a248.e.akamai.net/assets.github.com/images/modules/dashboard/bootcamp/octocat_fork.png?afbff0b3" alt="alt text" title="Logo Title Text 1" /></p>
+
+<p>Reference-style:</p>
+
+<p><img src="https://a248.e.akamai.net/assets.github.com/images/modules/dashboard/bootcamp/octocat_fork.png?afbff0b3" alt="alt text" title="Logo Title Text 2" /></p>
+
+<p>通过 <code>code</code> 嵌套一小段行内代码</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">ckjijemljdij</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Default aligned</th>
+      <th style="text-align: left">Left aligned</th>
+      <th style="text-align: center">Center aligned<sup id="fnref:2"><a href="#fn:2" rel="footnote">1</a></sup></th>
+      <th style="text-align: right">Right aligned</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>First body part</td>
+      <td style="text-align: left">Second cell</td>
+      <td style="text-align: center">Third cell</td>
+      <td style="text-align: right">fourth cell</td>
+    </tr>
+    <tr>
+      <td>Second line</td>
+      <td style="text-align: left">foo</td>
+      <td style="text-align: center"><strong>strong</strong></td>
+      <td style="text-align: right">baz</td>
+    </tr>
+    <tr>
+      <td>Third line</td>
+      <td style="text-align: left">quux</td>
+      <td style="text-align: center">baz</td>
+      <td style="text-align: right">bar</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tables</th>
+      <th>Are</th>
+      <th>Cool</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>col 3 is</td>
+      <td>right-aligned</td>
+      <td>$1600</td>
+    </tr>
+    <tr>
+      <td>col 2 is</td>
+      <td>centered</td>
+      <td>$12</td>
+    </tr>
+    <tr>
+      <td>zebra stripes</td>
+      <td>are neat</td>
+      <td>$1</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Markdown</th>
+      <th>Less</th>
+      <th>Pretty</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><em>Still</em></td>
+      <td><code>renders</code></td>
+      <td><strong>nicely</strong></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <p>引用是使用大于号</p>
+</blockquote>
+
+<p>引用打断</p>
+
+<blockquote>
+  <p>另一个引用,你还能在引用里使用 <em>斜体</em> <strong>粗体</strong> ~~删除~~ 或者 <code>代码</code></p>
+</blockquote>
+
+<p>连字符</p>
+
+<hr />
+
+<p>星号</p>
+
+<hr />
+
+<p>下划线</p>
+
+<hr />
+
+<p><sup id="fnref:1"><a href="#fn:1" rel="footnote">2</a></sup></p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:2">
+      <p>Pi<a href="#fnref:2" rel="reference">&#8617;</a></p>
+    </li>
+    <li id="fn:1">
+      <p>我人有的和，主产不为这<a href="#fnref:1" rel="reference">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Sec]]></title>
     <link href="http://FosWu.github.io/blog/2014/01/17/title/"/>
     <updated>2014-01-17T13:09:41+08:00</updated>
     <id>http://FosWu.github.io/blog/2014/01/17/title</id>
     <content type="html"><![CDATA[<p>HI World!！！</p>
 
-<p>伍依禄</p>
+<p>伍依禄
+<!--more--></p>
 
 <h1 id="kramdown-tex">Kramdown tex示例</h1>
 
@@ -31,6 +253,10 @@
 <script type="math/tex; mode=display">
     a^2+b^2=\frac{1}{2}
 </script>
+
+<p>引用公式\eqref{eq:sample}很方便。</p>
+
+<p>\begin{equation} \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15} \label{eq:sample} \end{equation}</p>
 
 <p><img src="http://placekitten.com/890/280" /></p>
 
