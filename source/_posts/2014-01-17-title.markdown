@@ -5,8 +5,12 @@ date: 2014-01-17 13:09:41 +0800
 comments: true
 categories: 516
 ---
-hi world!
-无一路
+HI World!！！
+
+
+伍依禄
+<!--more-->
+
 # Kramdown tex示例
 
 这里有一个式子$a^2+b^2=\frac{1}{2}$来展示行内公式的使用。
@@ -16,3 +20,21 @@ hi world!
 $$
     a^2+b^2=\frac{1}{2}
 $$
+
+
+引用公式\eqref{eq:sample}很方便。
+
+\begin{equation} \int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15} \label{eq:sample} \end{equation}
+
+
+{% img http://placekitten.com/890/280 %}
+
+
+{% img left http://placekitten.com/320/250 Place Kitten #2 %}
+
+
+{% img right http://placekitten.com/300/500 150 250 Place Kitten #3 %}
+
+
+{% img right http://placekitten.com/300/500 150 250 'Place Kitten #4' 'An image of a very cute kitten' %}
+

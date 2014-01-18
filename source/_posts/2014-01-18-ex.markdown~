@@ -1,0 +1,141 @@
+---
+layout: post
+title: "sec"
+date: 2014-01-18 13:09:41 +0800
+comments: true
+categories: 516
+---
+# 标题 h1
+
+## 标题 h2
+
+### 标题 h3
+
+#### 标题 h4
+
+##### 标题 h5
+
+###### 标题 h6
+
+另外, 还有 H1 和 H2 的下划线样式:
+
+Alt-H1
+======
+
+Alt-H2
+------
+
+斜体 *asterisks* 或者 _underscores_
+
+粗体 **asterisks** 或者 __underscores__
+
+粗体斜体结合 **asterisks 和 _underscores_**
+
+删除线 ~~Scratch this.~~
+
+#### 有序列表
+
+1. 有序列表是 强调 顺序的一组元素的集合
+    1. 次级有序列表
+    2. 次级有序列表
+        1. 三级有序列表   
+2. 有序的列表前必须有数字,数字的值不重要
+
+#### 无序列表
+
+* 无序列表使用星号
+  * 无序列表次级列表
+    * 无序列表三级列表
+
+#### 混合列表
+
+1. 有序列表是 强调 顺序的一组元素的集合
+    * 无序列表使用星号
+
+      1. 次级有序列表
+
+         文字说明
+
+
+
+
+[I'm an inline-style link](https://www.google.com)
+
+[I'm a reference-style link][Arbitrary case-insensitive reference text]
+
+[You can use numbers for reference-style link definitions][1]
+
+Or leave it empty and use the [link text itself][]
+
+Some text to show that the reference links can follow later.
+
+[arbitrary case-insensitive reference text]: https://www.mozilla.org
+[1]: http://blog.squidv.com
+[link text itself]: http://www.github.com
+
+
+Inline-style: 
+
+![alt text](https://a248.e.akamai.net/assets.github.com/images/modules/dashboard/bootcamp/octocat_fork.png?afbff0b3 "Logo Title Text 1")
+
+Reference-style:
+
+![alt text][logo]
+
+[logo]: https://a248.e.akamai.net/assets.github.com/images/modules/dashboard/bootcamp/octocat_fork.png?afbff0b3 "Logo Title Text 2"
+
+通过 `code` 嵌套一小段行内代码
+
+```
+ckjijemljdij
+```
+[^1]:我人有的和，主产不为这
+
+|-----------------+------------+-----------------+----------------|
+| Default aligned |Left aligned| Center aligned  | Right aligned  |
+|-----------------|:-----------|:---------------:|---------------:|
+| First body part |Second cell | Third cell      | fourth cell    |
+| Second line     |foo         | **strong**      | baz            |
+| Third line      |quux        | baz             | bar            |
+|-----------------+------------+-----------------+----------------|
+
+
+Tables        | Are           | Cool  
+--------------|---------------|------
+col 3 is      | right-aligned | $1600 
+col 2 is      | centered      |   $12 
+zebra stripes | are neat      |    $1 
+
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
+
+
+
+
+>  引用是使用大于号
+
+引用打断
+
+>  另一个引用,你还能在引用里使用 *斜体* **粗体** ~~删除~~ 或者 `代码`
+
+连字符
+
+---
+
+星号
+
+***
+
+下划线
+
+____
+
+脚注：
+[^1]
+
+
+
