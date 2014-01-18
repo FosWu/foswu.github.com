@@ -4,7 +4,7 @@
   <title><![CDATA[FosWu 516Octopress Blog]]></title>
   <link href="http://FosWu.github.io/atom.xml" rel="self"/>
   <link href="http://FosWu.github.io/"/>
-  <updated>2014-01-17T23:41:10+08:00</updated>
+  <updated>2014-01-18T21:52:46+08:00</updated>
   <id>http://FosWu.github.io/</id>
   <author>
     <name><![CDATA[FosWu]]></name>
@@ -18,9 +18,11 @@
     <link href="http://FosWu.github.io/blog/2014/01/17/title/"/>
     <updated>2014-01-17T13:09:41+08:00</updated>
     <id>http://FosWu.github.io/blog/2014/01/17/title</id>
-    <content type="html"><![CDATA[<p>hi world!
-无一路
-# Kramdown tex示例</p>
+    <content type="html"><![CDATA[<p>HI World!！！</p>
+
+<p>伍依禄</p>
+
+<h1 id="kramdown-tex">Kramdown tex示例</h1>
 
 <p>这里有一个式子$a^2+b^2=\frac{1}{2}$来展示行内公式的使用。</p>
 
@@ -29,6 +31,15 @@
 <script type="math/tex; mode=display">
     a^2+b^2=\frac{1}{2}
 </script>
+
+<p><img src="http://placekitten.com/890/280" /></p>
+
+<p><img class="left" src="http://placekitten.com/320/250" title="Place Kitten #2" /></p>
+
+<p><img class="right" src="http://placekitten.com/300/500" width="150" height="250" title="Place Kitten #3" /></p>
+
+<p><img class="right" src="http://placekitten.com/300/500" width="150" height="250" title="Place Kitten #4" alt="An image of a very cute kitten" /></p>
+
 ]]></content>
   </entry>
   
